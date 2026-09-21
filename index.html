@@ -3,223 +3,1211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down" />
 
+    <title>AKIRA | Women's Fashion</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
+
 <body>
+
+    <!-- ================= HEADER ================= -->
+
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <img src="logo.png" alt="AKIRA">
-            </div>
-            <div class="lavlist">
-                <ul class="lavul">
-                    <li  class="lavli"><a href="#" class="lava home">HOME</a></li>
-                    <li class="dropdown1 lavli dropdown-hover">
-                    <a href="#" class="lava">SHOP<i class="fa-solid fa-chevron-down dropdown3"></i> </a>
-                     <ul class="dorpdown-menu1">
-                        <li><a href="#">Mipur Branch</a></li>
-                        <li><a href="#">Uttara Branch</a></li>
-                        <li><a href="#">Gulsan Branch</a></li>
-                        <li><a href="#">Mohammadpur Branch</a></li>
-                        <li><a href="#">Banani Branch</a></li>
-                        <li><a href="#">MOtijheel Branch</a></li>
 
-                     </ul>
+        <div class="container navbar">
 
+            <!-- Logo -->
+            <a href="#" class="logo">
+                AKIRA
+            </a>
 
+            <!-- Navigation -->
+            <nav class="nav-menu">
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a href="#" class="active">Home</a>
                     </li>
-                    <li class="lavli">
-                        <a href="#" class="lava">BLOG</a></li>
-                    <li class="dropdown lavli dropdown-hover">
-                         <a href="#" class="lava">PAGES<i class="fa-solid fa-chevron-down dropdown3"></i></a>
+
+                    <!-- Shop Dropdown -->
+                    <li class="dropdown">
+                        <a href="#">
+                            Shop
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+
                         <ul class="dropdown-menu">
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Track Order</a></li>
-                            <li><a href="#">404 With Elementor</a></li>
-                            
+
+                            <li>
+                                <a href="#">All Products</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Dresses</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Handbags</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Shoes</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Accessories</a>
+                            </li>
 
                         </ul>
-                        </li>
-                    <li class="lavli"><a href="# " class="lava">ELEMENTS</a></li>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                    <!-- Pages Dropdown -->
+                    <li class="dropdown">
+                        <a href="#">
+                            Pages
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">Elements</a>
+                    </li>
 
                 </ul>
-            </div>
-            <div class="icons">
-              <i class="fa-solid fa-magnifying-glass"></i> 
-              <i class="fa-regular fa-heart"></i> 
-              <i class="fa-solid fa-cart-shopping"></i> 
-              <i class="fa-regular fa-circle-user"></i>
+
+            </nav>
+
+            <!-- Navbar Icons -->
+            <div class="nav-icons">
+
+                <a href="#" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <a href="#" aria-label="Wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+
+                <a href="#" class="cart-icon" aria-label="Cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>0</span>
+                </a>
+
+                <a href="#" aria-label="Account">
+                    <i class="fa-regular fa-user"></i>
+                </a>
 
             </div>
-        </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
     </header>
 
-    <main>
-      <section class="content-box">
-        <h4>WOMEN BESTCOLLECTION LIST</h4>
-        <h1>New Collection </h1>
-        <h1>_New Design</h1>
-        <button>SHOP NOW</button>
 
-      </section>
-      <section class="content-box2">
-        <div class="box" class="box1">
-            <i class="fa-solid fa-car"></i>
-            <h3>Free Shipping from  $100</h3>
-            <h6>Lorem ipsum dolor sit amet.</h6>
-        </div>
-       <div class="box" class="box2">
-            <i class="fa-solid fa-money-bill-1-wave"></i>
-            <h3>Money back
-                guaranteed</h3>
-            <h6>Lorem ipsum dolor sit amet.</h6>
-        </div>
-        <div class="box" class="box3">
-            <i class="fa-solid fa-lock"></i>
-            <h3>Secure Payment</h3>
-            <h6>Lorem ipsum dolor sit amet.</h6>
-        </div>
-         <div class="box" class="box4">
-            <i class="fa-solid fa-circle-check"></i>
-            <h3>100% authenticity guaranteed</h3>
-            <h6>Lorem ipsum dolor sit amet.</h6>
-        </div>
-   
-      </section>
-      <section class="content-box3">
-         <div class="border1">
+    <!-- ================= HERO ================= -->
 
-         </div>
-         <div class="items">
-            <ul>
-                <li><a href="#" id="items1">All Products</a></li>
-                <li><a href="#">Dresses</a></li>
-                <li><a href="#">Handbags</a></li>
-                <li><a href="#">Shoes</a></li>
-                <li><a href="#">Accessories</a></li>
+    <section class="hero">
 
-            </ul>
-         </div>
-      </section>
-      <section class="all-products">
-        <div class="products product1">
-            <img src="item1.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$69.00</p>
-             <button>Buy Now</button>
+        <div class="container hero-content">
+
+            <p class="hero-subtitle">
+                NEW COLLECTION 2026
+            </p>
+
+            <h1>
+                Elegance That<br>
+                <span>Defines You</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover timeless fashion pieces designed
+                for modern women who love effortless elegance.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn btn-primary">
+                    Shop Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#" class="btn btn-outline">
+                    Explore Collection
+                </a>
+
+            </div>
+
         </div>
-         <div class="products product2">
-            <img src="item2.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$66.00</p>
-             <button>Buy Now</button>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="container features-container">
+
+            <div class="feature-box">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+
+                <div>
+                    <h3>Free Shipping</h3>
+                    <p>On orders over $100</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-box">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </div>
+
+                <div>
+                    <h3>Money Back</h3>
+                    <p>30 days easy return</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-box">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <div>
+                    <h3>Secure Payment</h3>
+                    <p>100% secure checkout</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-box">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+
+                <div>
+                    <h3>Authenticity</h3>
+                    <p>100% genuine products</p>
+                </div>
+
+            </div>
+
         </div>
-         <div class="products product3">
-            <img src="item3.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$49.00</p>
-             <button>Buy Now</button>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <main id="products" class="products-section">
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="section-heading">
+
+                <p class="section-subtitle">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    Featured Products
+                </h2>
+
+                <p>
+                    Explore our carefully selected collection
+                    of modern women's fashion.
+                </p>
+
+            </div>
+
+
+            <!-- Category Buttons -->
+
+            <div class="categories">
+
+                <button class="category-btn active">
+                    All Products
+                </button>
+
+                <button class="category-btn">
+                    Dresses
+                </button>
+
+                <button class="category-btn">
+                    Handbags
+                </button>
+
+                <button class="category-btn">
+                    Shoes
+                </button>
+
+                <button class="category-btn">
+                    Accessories
+                </button>
+
+            </div>
+
+
+            <!-- Product Grid -->
+
+            <div class="product-grid">
+
+
+                <!-- PRODUCT 01 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item1.jpg"
+                            alt="Elegant Women's Dress"
+                        >
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Dresses
+                        </p>
+
+                        <h3 class="product-title">
+                            Elegant Summer Dress
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(24)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $79.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 02 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item2.jpg"
+                            alt="Classic Women's Handbag"
+                        >
+
+                        <span class="product-badge sale">
+                            -20%
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Handbags
+                        </p>
+
+                        <h3 class="product-title">
+                            Classic Leather Bag
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(18)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $95.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 03 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item3.jpg"
+                            alt="Women's High Heels"
+                        >
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Shoes
+                        </p>
+
+                        <h3 class="product-title">
+                            Classic High Heels
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(31)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $89.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 04 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item4.jpg"
+                            alt="Women's Fashion Dress"
+                        >
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Dresses
+                        </p>
+
+                        <h3 class="product-title">
+                            Floral Midi Dress
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(27)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $72.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 05 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item5.jpg"
+                            alt="Women's Fashion Bag"
+                        >
+
+                        <span class="product-badge sale">
+                            -15%
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Handbags
+                        </p>
+
+                        <h3 class="product-title">
+                            Mini Shoulder Bag
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(16)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $68.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 06 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item6.jpg"
+                            alt="Women's Fashion Shoes"
+                        >
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Shoes
+                        </p>
+
+                        <h3 class="product-title">
+                            Elegant Sandals
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(21)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $65.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 07 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item7.jpg"
+                            alt="Women's Casual Dress"
+                        >
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Dresses
+                        </p>
+
+                        <h3 class="product-title">
+                            Casual Pink Dress
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(34)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $74.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 08 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item8.jpg"
+                            alt="Women's Tote Bag"
+                        >
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Handbags
+                        </p>
+
+                        <h3 class="product-title">
+                            Luxury Tote Bag
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(19)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $110.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 09 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item9.jpg"
+                            alt="Women's Sneakers"
+                        >
+
+                        <span class="product-badge sale">
+                            -10%
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Shoes
+                        </p>
+
+                        <h3 class="product-title">
+                            Modern Sneakers
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(42)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $82.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 10 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item10.jpg"
+                            alt="Women's Accessories"
+                        >
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Accessories
+                        </p>
+
+                        <h3 class="product-title">
+                            Pearl Necklace
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(29)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $45.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 11 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item1.jpg"
+                            alt="Women's Fashion Watch"
+                        >
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Accessories
+                        </p>
+
+                        <h3 class="product-title">
+                            Minimal Gold Watch
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(17)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $99.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 12 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="item6.jpg"
+                            alt="Women's Sunglasses"
+                        >
+
+                        <span class="product-badge sale">
+                            -25%
+                        </span>
+
+                        <button class="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="quick-actions">
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Accessories
+                        </p>
+
+                        <h3 class="product-title">
+                            Luxury Sunglasses
+                        </h3>
+
+                        <div class="product-rating">
+                            ★★★★★
+                            <span>(37)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <span class="product-price">
+                                $59.00
+                            </span>
+
+                            <button class="cart-btn">
+                                Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
         </div>
-         <div class="products product4">
-            <img src="item4.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$70.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product5">
-            <img src="item5.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$49.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product6">
-            <img src="item6.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$58.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product7">
-            <img src="item7.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$37.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product8">
-            <img src="item8.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$92.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product9">
-            <img src="item9.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$44.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product10">
-            <img src="item10.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$69.00</p>
-             <button>Buy Now</button>
-        </div>
-        <div class="products product1">
-            <img src="item1.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$69.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product2">
-            <img src="item2.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$66.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product7">
-            <img src="item7.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$37.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product8">
-            <img src="item8.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$92.00</p>
-             <button>Buy Now</button>
-        </div>
-         <div class="products product9">
-            <img src="item9.jpg" alt="">
-             <h3>Donec vel</h3>
-             <p>Clothes</p>
-             <p>$44.00</p>
-             <button>Buy Now</button>
-        </div>
-      </section>
-    
-      
+
     </main>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="container newsletter-container">
+
+            <div>
+                <p class="section-subtitle">
+                    STAY CONNECTED
+                </p>
+
+                <h2>
+                    Get 15% Off Your First Order
+                </h2>
+
+                <p>
+                    Subscribe to our newsletter and receive
+                    exclusive offers and fashion updates.
+                </p>
+            </div>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    AKIRA
+                </a>
+
+                <p>
+                    Modern fashion for modern women.
+                    Discover elegance, confidence and
+                    timeless style.
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Shop</h3>
+
+                <a href="#">Dresses</a>
+                <a href="#">Handbags</a>
+                <a href="#">Shoes</a>
+                <a href="#">Accessories</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Information</h3>
+
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+                <a href="#">Privacy Policy</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Customer Care</h3>
+
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Payment</a>
+                <a href="#">Track Order</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 AKIRA. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
 </body>
 </html>
