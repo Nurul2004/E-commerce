@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <main class="login">
+
+        <!-- Left Side -->
+        <section class="signin">
+
+            <h1>Welcome Back!</h1>
+
+            <p>
+                To keep connected with us,<br>
+                please login with your personal info.
+            </p>
+
+            <a href="login.html" class="signin-btn">
+                Sign In
+            </a>
+
+        </section>
+
+
+        <!-- Right Side -->
+        <section class="signup">
+
+            <h1>Create Account</h1>
+
+            <!-- Social Login -->
+            <div class="social-link">
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+            <p class="signup-text">
+                or use your email for registration
+            </p>
+
+
+            <!-- Signup Form -->
+            <form action="" method="post">
+
+                <!-- Name -->
+                <div class="input-box">
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+
+                <!-- Email -->
+                <div class="input-box">
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+
+                <!-- Password -->
+                <div class="input-box">
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        autocomplete="new-password"
+                        required
+                    >
+                </div>
+
+
+                <button type="submit" class="signup-btn">
+                    Sign Up
+                </button>
+
+            </form>
+
+
+            <!-- Login Link -->
+            <div class="account-link">
+                <span>Already have an account?</span>
+                <a href="login.html">Sign In</a>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
